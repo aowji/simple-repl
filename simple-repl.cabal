@@ -1,0 +1,17 @@
+cabal-version:      3.0
+name:               simple-repl
+version:            0.1.0.0
+build-type:         Simple
+
+executable simple-repl
+    main-is:          Main.hs
+    build-depends:
+        base ^>=4.18.2.1,
+        megaparsec ^>=9.6.1,
+        parser-combinators ^>=1.3.0,
+        mtl ^>=2.3.1,
+        containers ^>= 0.7,
+        haskeline ^>=0.8.2.1,
+        hspec ^>=2.11.9
+    default-language: GHC2021
+
